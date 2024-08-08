@@ -13,6 +13,7 @@ let package = Package(
     targets: [
         .target(
             name: "TTTAttributedLabel",
-            dependencies: [])
+            dependencies: [],
+            exclude: ["TTTAttributedLabel.h", "TTTAttributedLabel.m"],)
     ]
 )
