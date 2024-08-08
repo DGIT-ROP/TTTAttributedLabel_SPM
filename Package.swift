@@ -14,6 +14,6 @@ let package = Package(
         .target(
             name: "TTTAttributedLabel",
             dependencies: [],
-            exclude: ["TTTAttributedLabel.h", "TTTAttributedLabel.m"],)
+            path: "Sources")
     ]
 )
